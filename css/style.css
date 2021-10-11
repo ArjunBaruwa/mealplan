@@ -1,0 +1,487 @@
+/* css style sheet for whole website*/
+body{
+	margin:0 50px;
+
+}
+
+body #container {
+ background-color: #ffffff;
+ font-family: Arial;
+ font-size: 14pt;
+ color: #000000;
+
+
+ }
+
+/*
+
+*/
+/*this is for header */
+header {
+ height: 110px;
+ padding: 1px;
+ padding-bottom:5px;
+ background-color: white;
+}
+
+ header article {    /*for each section in header*/
+ position:relative;
+ top:0;
+ float: left;
+ height:100px;
+ width:74%;
+
+}
+
+ header section {    /*for each section in header*/
+ position:relative;
+ top:0;
+ float: right;
+ height:100px;
+ width:20%;
+ text-align:center;
+ margin-bottom:0px;
+}
+
+header #logo {        /*for the logo in header part */
+ Position:relative;
+ width: 150px;
+ height: 100px;
+ float: left;
+}
+header h1, header h1 a {  /*for the title of website */
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 10px;
+
+ font-size:40pt;
+ color:#F40B41;
+ text-decoration:none;
+}
+header h1 a:hover{
+
+ color:#F40B41;
+ text-decoration:none;
+}
+
+
+
+
+/*Start of navigation style*/
+/*for overall navigation */
+
+nav {
+
+ margin-left: 160px;
+}
+nav ul {    /* for the overall navigation list*/
+ list-style: none;
+ position: relative;
+  margin: 0px;
+
+}
+
+nav ul a, nav ul li span { /* for each title of navigation bar including secondary nav as well*/
+ display: inline;
+ color: black;
+ line-height: 0px;
+ padding: 10px;
+
+
+}
+nav ul li {  /* for each list of navigation */
+ position: relative;
+ float: left;
+
+
+}
+nav ul li a {
+ line-height: 130%;
+ padding: 10px 15px;
+ text-decoration: none;
+
+}
+
+nav ul li:hover, nav ul li span:hover, nav ul li a:hover {
+color:red;
+text-decoration: none;
+}
+
+
+/* for secondary navigation */
+#drop {    /* use of class dropdown */
+  position: relative;
+  display: inline-block;
+}
+
+#drop-content {
+  display: none;
+  position: absolute;
+   background-color: white ;
+
+  min-width: 1px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 1px 1px;
+  z-index: 1;
+}
+
+#drop:hover #drop-content {
+  display: block;
+	text-decoration: none;
+}
+/*end of style for navigation*/
+
+
+/* the area and style of the form on header section */
+
+
+section form input{
+	border-radius:2px;
+	margin-top: 2px;
+
+}
+
+/*
+
+this is for top nav bar...
+
+*/
+section #topnav nav{
+	display:inline;
+	margin-top:20px;
+
+}
+section #topnav nav ul li{
+	position: relative;
+
+	float: left;
+	margin-right:15px;
+	margin-bottom: 10px;
+
+}
+
+nav ul li #login a{
+	color:red;
+}
+nav ul li #signin a{
+	background-color:red;
+	border-radius:20px;
+}
+nav ul li #signin a:hover,nav ul li #login a:hover{
+	background-color:#F63C67;
+	color:black;
+}
+
+
+
+section #profile img{
+	border-radius:25px;
+	position:relative;
+	margin:0px;
+	height:50px;
+	width:50px;
+
+}
+header section p{
+	font-size:15px;
+	margin:0px;
+	padding: 2px;
+	margin-bottom:2px;
+
+}
+
+section form input {
+	margin-top:0px;
+  width: 200px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 1px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  color: red;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+color:red;
+text-decoration: none;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/*
+
+this is for side nav bar...
+
+*/
+
+
+aside {
+   position:relative;
+   height: 100%;
+
+  float:left;
+  background-color: white;
+  padding:0px;
+  padding-top: 20px;
+}
+
+aside a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+aside h4 {
+	margin: 0 0px;
+
+
+}
+
+
+
+aside a:hover {
+  color: red;
+	text-decoration: none;
+}
+#profilebox hr{
+	margin: 0 0px;
+
+}
+
+
+#maincontent {
+  position:relative;
+  float:left;
+   width: 100%;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+#maincontent img{
+	height:150px;
+	width:150px;
+
+}
+
+aside article #sidebox{
+	position:relative;
+
+	width:100%;
+	background-color: white;
+	color:black;
+
+}
+aside article #sidebox img{
+	position:relative;
+
+}
+
+
+
+
+/*
+
+this is for contentbox...
+
+*/
+
+#contentbox hr, #contentbox h6 {
+	margin:0px;
+
+}
+#contentbox h6{
+	margin-top:5px;
+}
+
+#contentbox h6 a{
+	text-decoration:none;
+	margin: 5px;
+}
+
+#contentbox h6 a:hover{
+	color:red;
+}
+
+#contentbox article img {
+	position:relative;
+	margin:30px;
+	margin-left:300px;
+	width:50%;
+	height:250px;
+
+}
+
+
+
+#contentbox h2{
+	position:relative;
+	padding: 5px;
+	color:red;
+	font-size: 16px;
+}
+
+
+#contentbox #recent section{
+	position:relative;
+	float:left;
+	width:23%;
+	height: 280px;
+	color:black;
+	margin:10px;
+	text-align: center;
+}
+
+section #box img{
+	Position:relative;
+	height: 220px;
+	width: 90%;
+}
+#contentbox #recent section:hover{
+	background-color:red;
+}
+
+
+#contentbox article #community {
+	position:relative;
+	width:65%;
+	height:400px;
+	background-color:blue;
+	margin-left:200px;
+	overflow:auto;
+}
+
+#contentbox article #community section{
+	position:relative;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+
+}
+
+#contentbox article #community section p, #contentbox article #community section h6{
+	padding-left:10px;
+	margin:1px;
+	font-size:15px;
+}
+#contentbox article form{
+	position:relative;
+	width:65%;
+	margin-left:200px;
+	margin-bottom:10px;
+}
+
+#contentbox article form input{
+	width:92%;
+
+}
+#contentbox article form input, #contentbox article form button{
+	border-radius:5px;
+	height:30px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('../images/search.png');
+  background-size: 25px 25px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+	border-right: 1px solid #ddd;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+/*
+
+this is for footer...
+
+*/
+#container footer{
+	position:relative;
+  width:100%;
+	height:100px;
+	background-color: #37C0FB;
+
+}
+
+/*for each section in footer section*/
+ footer section {
+ height:50px;
+ width: 33%;
+ float: left;
+ text-align:center;
+ font-size:15px;
+}
+
+footer section #social-media img {
+	padding:1px;
+ height:30px;
+ width:30px;
+}
